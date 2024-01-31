@@ -1,0 +1,67 @@
+.vehicle-container {
+  margin: 10px 10px 10px 10px;
+}
+.vehicle-container > .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-image {
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  height: 200px;
+}
+.vehicle-info {
+  margin: 5px 0px 5px 10px;
+}
+.make-model-year {
+  display: flex;
+}
+.make-model-year > h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 5px 0px 5px 3px;
+  color: #1e2d7d;
+}
+.vehicle-price {
+  color: black;
+  font-weight: 600;
+  margin: 5px 0px 5px 3px;
+}
+.vehicle-city {
+  color: #9298a7;
+  font-weight: 600;
+  margin: 5px 0px 5px 3px;
+}
+.pagination-card {
+  margin: 10px 20px 10px 20px;
+  padding: 20px 10px 20px 10px;
+  width: 360px;
+  height: fit-content;
+  text-align: center;
+  border-radius: 0px;
+}
+.pagination-button {
+  padding: 6px;
+  border-radius: 8px;
+  margin: 0px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid #333;
+}
+.pagination-info {
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+}
+.vehicles-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vehicles-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}

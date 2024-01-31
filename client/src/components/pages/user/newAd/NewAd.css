@@ -1,0 +1,166 @@
+.first-section-sell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #bec9d9;
+  padding: 20px;
+}
+.first-section-sell > h1 {
+  color: #1e2d7d;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
+}
+.first-section-sell .card {
+  margin-top: 20px;
+  width: fit-content;
+  padding: 30px 60px 30px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+.first-section-sell .card > h2 {
+  font-weight: 700;
+  font-size: 23px;
+}
+.first-section-sell .card > img {
+  width: 150px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.first-section-sell .card > p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+.first-section-sell .card .btn {
+  margin-top: 20px;
+  width: 300px;
+  background-color: #1e2d7d;
+  border: none;
+  font-weight: 600;
+  padding: 10px;
+}
+.second-section-sell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+.second-section-sell > h1 {
+  color: #545454;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.second-section-sell .cards {
+  display: flex;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+}
+.second-section-sell .cards .card {
+  width: 250px;
+  margin: 10px;
+  background-color: #e7f1ff;
+  border: none;
+}
+.second-section-sell .cards .card .card-body > p {
+  font-size: 17px;
+  font-weight: 600;
+}
+.third-section-sell {
+  background-color: #f2f3f3;
+  padding: 20px 0px 50px 0px;
+  justify-content: center;
+  text-align: center;
+}
+.third-section-sell > h1 {
+  color: #545454;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.third-section-sell .steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.third-section-sell .steps > div {
+  width: 300px;
+  margin: 0px 20px 0px 20px;
+}
+.third-section-sell .steps > div > i {
+  color: #1e2d7d;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.third-section-sell .steps > div > h1 {
+  font-size: 22px;
+  font-weight: 800;
+}
+.third-section-sell .steps > div > p {
+  font-weight: 500;
+}
+.fourth-section-sell {
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.fourth-section-sell > h1 {
+  color: #545454;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.fourth-section-sell .cards {
+  display: flex;
+  margin: 20px 50px 20px 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-section-sell .cards .card {
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  background-color: #e7f1ff;
+  width: 250px;
+  height: 160px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.fourth-section-sell .cards .card .glowbulb-icon {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #1e2d7d;
+  border-radius: 50%;
+  padding: 10px 15px 10px 15px;
+  background-color: #fff;
+}
+
+.fourth-section-sell .cards .card .glowbulb-icon i {
+  color: #1e2d7d;
+}
+
+.fourth-section-sell .cards .card > p {
+  font-weight: 500;
+}

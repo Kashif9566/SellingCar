@@ -1,0 +1,161 @@
+.newAdForm .container {
+  padding-bottom: 45px; /* Add padding to the bottom of the container */
+}
+.newAdForm .info-card {
+  margin-top: 20px;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+
+.newAdForm .info-card > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e2d7d;
+}
+
+.newAdForm .info-card > p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.newAdForm .info-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.newAdForm .info-card ul li {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.newAdForm .info-card ul li i {
+  font-size: 24px;
+  border: 2px solid #1e2d7d;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  color: #1e2d7d;
+}
+.car-information {
+  padding: 40px;
+  text-align: center;
+}
+.car-information > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 30px;
+  color: #494949;
+}
+.form-input-ad {
+  margin-bottom: 10px;
+}
+.form-input-ad > label {
+  margin: 0px 10px 0px 10px;
+  font-size: 18px;
+  font-weight: 550;
+  width: 150px;
+  color: #494949;
+}
+
+.form-input-ad > input,
+textarea {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+  width: 250px;
+}
+
+.form-input-ad > select {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+  width: 250px;
+}
+.image-upload {
+  padding: 40px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-upload > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #494949;
+}
+
+.image-upload > input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.additional-information {
+  padding: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+.additional-information > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: #494949;
+}
+.contact-information {
+  padding: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+.contact-information > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: #494949;
+}
+.contact-information > p {
+  color: #494949;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.ad-submit-button {
+  padding: 10px;
+  border: none;
+  background-color: #3eb549;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  margin: 10px 0px 0px 0px;
+  float: right;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-left: auto;
+}
+.required {
+  color: red;
+  margin-left: 4px;
+}

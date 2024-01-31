@@ -1,0 +1,125 @@
+.user-ad-conatiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-ad-conatiner h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  background-color: aliceblue;
+}
+
+.my-ad-notfound {
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-ad-notfound .card {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-ad-notfound .card h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1e2d7d;
+  margin-top: 20px;
+}
+
+.my-ad-notfound .card p {
+  font-size: 16px;
+  font-weight: 520;
+  color: #333;
+  margin-top: 5px;
+}
+
+.my-ad-notfound .card button {
+  width: fit-content;
+  margin: 2px 0px 5px 0px;
+}
+
+.user-ad-container {
+  padding: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user-vehicle-card {
+  margin: 20px 0;
+  max-width: 590px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px;
+}
+
+.user-card-body {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user-card-body img {
+  height: 200px;
+  width: 290px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.user-card-body > div {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+
+.user-card-body .make-model {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-card-body .make-model > div {
+  color: #1e2d7d;
+  font-size: 23px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.ad-live {
+  margin-bottom: 4px;
+  text-align: center;
+  border-radius: 0px;
+  background-color: #1e2d7d;
+  color: white;
+  width: 170px;
+}
+
+.ad-live > p {
+  margin-top: 12px;
+}
+
+.user-card-body > div .btn-warning {
+  width: 170px;
+  border-radius: 0px;
+}
+.user-card-body > div .btn-warning:hover {
+  background-color: #bc3232;
+  color: white;
+  border-color: #1e2d7d;
+}
+.myad-logo img {
+  width: 200px;
+}

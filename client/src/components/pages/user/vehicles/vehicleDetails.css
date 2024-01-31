@@ -1,0 +1,249 @@
+.vehicle-detail-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px 30px 10px 30px;
+}
+.car-details {
+  border-radius: 0px;
+  margin-top: 10px;
+}
+.car-name {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 10px 20px;
+}
+.car-details .make-model {
+  display: flex;
+}
+.car-name .make-model > h2 {
+  margin-left: 7px;
+  font-size: 23px;
+  color: #1e2d7d;
+  font-weight: 600;
+}
+.car-image-detail {
+  height: 200px;
+}
+.image-city {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #444444;
+}
+.car-info {
+  margin: 10px 20px 10px 20px;
+}
+.car-info > div {
+  border-radius: 0px;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+}
+.car-info > div > .svg-inline--fa {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.more-info {
+  margin-top: 20px;
+  padding: 25px 30px 0px 30px;
+}
+
+.more-info div {
+  margin-bottom: 20px;
+}
+.features-section,
+.seller-comments-section {
+  padding: 0px 20px 20px 20px;
+}
+
+.features-section > h4 {
+  font-weight: 600;
+  color: #444444;
+}
+.seller-comments-section > h4 {
+  font-weight: 600;
+  color: #444444;
+}
+.more-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.more-info p:first-child {
+  font-weight: bold;
+}
+
+.car-details-card {
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.car-details-card > p {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35px;
+  color: #1e2d7d;
+}
+
+.managed-by {
+  background-color: #eaf0ff;
+  display: flex;
+  flex-direction: column;
+}
+.managed-by > h2 {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 10px 20px 10px;
+  font-weight: 600;
+  color: #545454;
+}
+.managed-by > img {
+  width: 250px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.managed-by > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.seller-phone {
+  width: 70%;
+  padding: 10px;
+  align-self: center;
+  margin: 20px 0px 20px 0px;
+  border-radius: 0px;
+  background-color: #1e2d7d;
+}
+.seller-phone > p {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.seller-phone > span {
+  font-size: 15px;
+  color: #eaf0ff;
+  text-align: center;
+}
+.seller-details {
+  border-radius: 2px;
+  margin-top: 13px;
+}
+.seller-details .card-header {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.seller-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seller-info > div {
+  display: flex;
+  align-items: center;
+}
+.seller-info > div > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100px;
+}
+.seller-info > div > p {
+  margin-top: 5px;
+  font-weight: 600;
+  width: 100px;
+  margin-left: 10px;
+  color: #555;
+}
+.safety-tips {
+  margin-top: 13px;
+  padding: 20px;
+}
+.safety-tips > h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e2d7d;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.safety-tips > p {
+  text-align: start;
+  padding-left: 14%;
+  margin-top: -20px;
+}
+.similar-ads {
+  margin-top: 20px;
+}
+.similar-ads h4 {
+  font-weight: 600;
+  color: #444444;
+}
+.car-image-detail {
+  padding: 10px;
+  height: 400px;
+}
+.vehicle-onwer-pic,
+.user-avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.features-section {
+  margin-top: 20px;
+}
+
+.features-section h4 {
+  color: #333;
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  justify-self: center;
+}
+
+.feature:hover {
+  background-color: #e0e0e0;
+  color: #ffc108;
+}
+.seller-comments-section {
+  margin-top: 20px;
+}
+
+.seller-comments-section h4 {
+  color: #333;
+}
+
+.description-list {
+  list-style-type: disc;
+  padding: 0;
+  margin: 0;
+}
+
+.description-list li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}

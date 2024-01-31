@@ -1,0 +1,29 @@
+.search-classified-bg {
+  padding: 100px 0px 100px 0px;
+  background-color: #023572;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search-classified-text {
+  color: white;
+}
+.search-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  width: 200px;
+}
+.search-bar > form .search-button {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #3eb549;
+  width: 50px;
+}
+.search-bar > form .search-button:hover {
+  background-color: #207154;
+}
