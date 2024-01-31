@@ -8,7 +8,7 @@ const VehicleModel = ({ vehicle }) => {
       <div className="card">
         <LazyLoad height={240}>
           <img
-            src={`http://localhost:8000/${vehicle.image}`}
+            src={vehicle.image}
             className="card-img-top vehicle-image"
             alt={`${vehicle.model}`}
           />

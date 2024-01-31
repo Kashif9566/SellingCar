@@ -335,8 +335,14 @@ const NewAdForm = () => {
                 />
               </div>
             </div>
-            <button className="ad-submit-button" type="submit">
-              SUBMIT AND CONTINUE
+            <button
+              className="ad-submit-button"
+              type="submit"
+              disabled={formik.values.isSubmitting}
+            >
+              {formik.values.isSubmitting
+                ? "Submitting..."
+                : "SUBMIT AND CONTINUE"}
             </button>
             <ToastContainer />
           </form>

@@ -10,7 +10,7 @@ import { fetchAllVehicles } from "../../../../redux/slice/VehicleSlice";
 
 const UserVehicleAd = () => {
   const user = useSelector((state) => state.user);
-  const [vehicles, setVehicles] = useState(null);
+  const [vehicles, setVehicles] = useState([]);
 
   const fetchUserVehicles = async () => {
     try {
@@ -49,7 +49,7 @@ const UserVehicleAd = () => {
   return (
     <div>
       <Navbar />
-      {!vehicles ? (
+      {vehicles.length === 0 ? (
         <div className="my-ad-notfound">
           <div className="card">
             <h3>No Ad posted yet, want to sell your car?</h3>
@@ -67,17 +67,16 @@ const UserVehicleAd = () => {
         </div>
       ) : (
         <div className="user-ad-conatiner">
-          {vehicles.length === 1 ? <h2>Your Ad</h2> : <h2>Your Ads</h2>}
-          <div>
-            {vehicles.map((vehicle) => (
-              <div key={vehicle.id} className="my-ad-vehicles">
-                <UserVehicleModel
-                  vehicle={vehicle}
-                  handleDelete={handleDelete}
-                />
-              </div>
-            ))}
-          </div>
+          {vehicles && vehicles.length === 1 ? (
+            <h2>Your Ad</h2>
+          ) : (
+            <h2>Your Ads</h2>
+          )}
+          {vehicles.map((vehicle) => (
+            <div key={vehicle.id} className="my-ad-vehicles">
+              <UserVehicleModel vehicle={vehicle} handleDelete={handleDelete} />
+            </div>
+          ))}
         </div>
       )}
     </div>

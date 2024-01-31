@@ -15,7 +15,7 @@ const UserVehicleModel = ({ vehicle, handleDelete }) => {
   return (
     <div className="user-vehicle-card card">
       <div className="user-card-body">
-        <img alt="car" src={`http://localhost:8000/${vehicle.image}`} />
+        <img alt="car" src={vehicle.image} />
         <div>
           <div className="make-model">
             <div>{vehicle.make}</div>

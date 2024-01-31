@@ -68,10 +68,9 @@ const VehicleDetails = () => {
                 <div className="car-image-details">
                   {vehicle && vehicle.image !== null && (
                     <img
-                      src={`http://localhost:8000/${vehicle.image}`}
+                      src={vehicle.image}
                       alt="Vehicle"
                       className="car-image-detail"
-                      style={{ width: "100%" }}
                     />
                   )}
                 </div>
@@ -191,7 +190,7 @@ const VehicleDetails = () => {
                       <img
                         className="vehicle-onwer-pic"
                         alt="user-pic"
-                        src={`http://localhost:8000/${vehicle.User.image}`}
+                        src={vehicle.User.image}
                       />
                     )}
 

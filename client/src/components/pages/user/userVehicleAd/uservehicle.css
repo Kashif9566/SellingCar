@@ -19,7 +19,6 @@
   text-align: center;
   align-items: center;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -59,7 +58,7 @@
 }
 
 .user-vehicle-card {
-  margin: 20px 0;
+  margin: 10px 0px;
   max-width: 590px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -68,14 +67,14 @@
 
 .user-card-body {
   display: flex;
-  padding: 20px;
+  padding: 8px 20px 8px 20px;
   align-items: center;
   justify-content: space-around;
 }
 
 .user-card-body img {
-  height: 200px;
-  width: 290px;
+  height: 180px;
+  width: 180px;
   object-fit: cover;
   border-radius: 8px;
 }

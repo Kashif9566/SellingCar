@@ -42,12 +42,12 @@
   margin-bottom: 10px;
 }
 .more-info {
-  margin-top: 20px;
-  padding: 25px 30px 0px 30px;
+  margin-top: 0px;
+  padding: 10px 30px 0px 30px;
 }
 
 .more-info div {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .features-section,
 .seller-comments-section {
@@ -186,6 +186,7 @@
 .car-image-detail {
   padding: 10px;
   height: 400px;
+  width: 100%;
 }
 .vehicle-onwer-pic,
 .user-avatar {

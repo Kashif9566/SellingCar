@@ -14,10 +14,6 @@ const Navbar = () => {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
-  const handleShowModal = () => {
-    setShowModal(true);
-  };
-
   const handleCloseModal = () => {
     setShowModal(false);
   };
@@ -25,6 +21,7 @@ const Navbar = () => {
     localStorage.removeItem("userInfo");
     dispatch(clearUser());
     setShowModal(false);
+    window.location.reload();
   };
   const handleLoginClick = () => {
     setShowLoginModal(true);

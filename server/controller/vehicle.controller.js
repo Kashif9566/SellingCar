@@ -1,6 +1,7 @@
 const Vehicle = require("../model/vehicle.model");
 const User = require("../model/user.model");
 const { Op } = require("sequelize");
+const cloudinary = require("../config/cloudinary.config");
 
 exports.createAdForVehicle = async (req, res) => {
   const {
@@ -22,7 +23,7 @@ exports.createAdForVehicle = async (req, res) => {
     secondaryNumber,
     engineType,
   } = req.body;
-  console.log("val", req.body);
+
   const userId = req.params.userId;
   const image = req.file ? req.file.path : null;
   try {
@@ -39,11 +40,27 @@ exports.createAdForVehicle = async (req, res) => {
     const featuresArray = features
       ? features.split(",").map((feature) => feature.trim())
       : null;
+
+    let imageUrl = null;
+
+    if (image) {
+      try {
+        const result = await uploadToCloudinary(image);
+        imageUrl = result.secure_url;
+      } catch (cloudinaryError) {
+        console.error(cloudinaryError);
+        return res.status(500).json({
+          success: false,
+          message: "Error uploading image to Cloudinary",
+        });
+      }
+    }
+
     const newAd = await Vehicle.create({
       make,
       model,
       year,
-      image,
+      image: imageUrl,
       exteriorColor,
       price,
       mileage,
@@ -73,6 +90,21 @@ exports.createAdForVehicle = async (req, res) => {
     console.error(error);
     res.status(500).json({ error: "Internal Server Error" });
   }
+};
+const uploadToCloudinary = (filePath) => {
+  return new Promise((resolve, reject) => {
+    cloudinary.uploader.upload(filePath, (err, result) => {
+      if (err) {
+        console.log(err);
+        reject({
+          success: false,
+          message: "Error uploading image to Cloudinary",
+        });
+      } else {
+        resolve(result);
+      }
+    });
+  });
 };
 
 exports.getVehicles = async (req, res) => {
