@@ -1,4 +1,4 @@
-Booking System Tech Stack:
+Tech Stack:
 
 ✨ Frontend:
 ReactJS, Redux Toolkit 
